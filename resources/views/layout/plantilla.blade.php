@@ -366,15 +366,15 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route('devoluciones.listar')}}" class="nav-link">
               <i class="fas fa-people-carry fa-fw"></i>
                   <p>Devoluciones realizadas</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('devoluciones.buscar')}}" class="nav-link">
                 <i class="fas fa-dolly-flatbed fa-fw"></i> 
-                  <p>Buscar deoluciones</p>
+                  <p>Buscar devoluciones</p>
                 </a>
               </li>
             </ul>
@@ -507,5 +507,15 @@
 <script src="/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/adminlte/dist/js/demo.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap.min.js"></script>
+    <!--Custom Js Script-->
+    <script src="assets/js/custom.js"></script>
+    <!--Custom Js Script-->
+    <script>
+        //Nice select
+        $("#productList").DataTable();
+        $('.bulk-actions').niceSelect();
+    </script>
 </body>
 </html>

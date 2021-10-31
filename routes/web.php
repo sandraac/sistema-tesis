@@ -27,3 +27,5 @@ Route::get('/Producto','ProductoController@index')->name('Producto.Index');  //i
 // Route::get('/Producto/vencimiento','ProductoController@vencimiento')->name('Producto.Vencimiento'); igual que almacen
 // Route::get('/Producto/minimo','ProductoController@minimo')->name('Producto.Minimo'); igual que almacen
 Route::get('/Producto-buscar','ProductoController@buscar')->name('Producto.Buscar');
+Route::get('/devoluciones/buscar','UserController@create')->name('devoluciones.buscar');
+Route::get('/devoluciones/listar','UserController@index')->name('devoluciones.listar');
