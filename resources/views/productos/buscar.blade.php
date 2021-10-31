@@ -28,27 +28,27 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
-                    <a href="http://systems.designlopers.com/SVI/product-sold/">
+                    <a href="">
                         <i class="fas fa-coins"></i> &nbsp; Lo más vendido
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
-                    <a href="http://systems.designlopers.com/SVI/product-category/">
+                    <a href="">
                         <i class="fas fa-tags"></i> &nbsp; Productos por categoría
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-                    <a href="http://systems.designlopers.com/SVI/product-expiration/">
+                    <a href="">
                         <i class="fas fa-history fa-fw"></i> &nbsp; Productos por vencimiento
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-                    <a href="http://systems.designlopers.com/SVI/product-minimum/">
+                    <a href="">
                         <i class="fas fa-stopwatch-20"></i> &nbsp; Productos en stock mínimo
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-                    <a href="http://systems.designlopers.com/SVI/product-search/">
+                    <a href="">
                         <i class="fas fa-search fa-fw"></i> &nbsp; Buscar productos
                     </a>
                 </div>
