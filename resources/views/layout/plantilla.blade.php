@@ -16,6 +16,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   @yield('estilos')
+
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -174,7 +175,7 @@
 
           <!-- DASHBOARD -->
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="{{route('Dashboard.dashboard')}}" class="nav-link">
             <i class="fab fa-dashcube fa-fw"></i>
               <p>
               Dashboard
@@ -184,7 +185,7 @@
 
 <!-- ADMINISTRACIÓN -->
 <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="" class="nav-link">
             <i class="fas fa-briefcase fa-fw"> </i>
               <p>
                 Administración
@@ -193,25 +194,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route('Categoria.Create')}}" class="nav-link">
               <i class="fas fa-users-cog"></i>
                   <p>Nueva categoría</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Proveedor.Create')}}" class="nav-link">
                 <i class="fas fa-truck"></i> 
                   <p>Nuevo provedor</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Usuario.Create')}}" class="nav-link">
                 <i class="fas fa-user"></i>
                   <p>Nuevo usuario</p>
                 </a>
               </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{route('Cliente.Create')}}" class="nav-link">
                     <i class="fas fa-child"></i>
                         <p>Nuevo cliente</p>
                     </a>
@@ -221,7 +222,7 @@
 
 <!-- PRODUCTOS -->
 <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="" class="nav-link">
             <i class="fas fa-boxes fa-fw"> </i>
               <p>
                 Productos
@@ -230,7 +231,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route('Producto.Create')}}" class="nav-link">
               <i class="fas fa-box fa-fw"></i>
                   <p>Nuevo producto</p>
                 </a>
@@ -242,25 +243,25 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="#" class="nav-link">
                 <i class="fas fa-hand-holding-usd"></i>
                   <p>Lo más vendido</p>
                 </a>
               </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{route('Producto.Category')}}" class="nav-link">
                     <i class="fas fa-tags"></i>
                         <p>Productos por categoría</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="#" class="nav-link">
                     <i class="fas fa-history fa-fw"></i>
                         <p>Productos por vencimiento</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="#" class="nav-link">
                     <i class="fas fa-business-time"></i>
                         <p>Productos en stock mínimo</p>
                     </a>
@@ -286,19 +287,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route('Compra.Create')}}" class="nav-link">
               <i class="fas fa-shopping-cart"></i>
                   <p>Nueva compra</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Compra.Index')}}" class="nav-link">
                 <i class="fas fa-shopping-bag"></i> 
                   <p>Compras realizadas</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Compra.Buscar')}}" class="nav-link">
                 <i class="fas fa-search fa-fw"></i>
                   <p>Buscar compra</p>
                 </a>
@@ -317,37 +318,37 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route('Venta.Create')}}" class="nav-link">
               <i class="fas fa-cart-plus fa-fw"></i>
                   <p>Nueva venta</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Venta.Mayoreo')}}" class="nav-link">
                 <i class="fas fa-parachute-box fa-fw"></i> 
                   <p>Venta por mayoreo</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="{{route('Venta.Index')}}" class="nav-link">
                 <i class="fas fa-coins fa-fw"></i>
                   <p>Ventas realizadas</p>
                 </a>
               </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{route('Venta.Pendiente')}}" class="nav-link">
                     <i class="fab fa-creative-commons-nc fa-fw"></i>
                         <p>Ventas pendientes</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{route('Venta.BuscarFecha')}}" class="nav-link">
                     <i class="fas fa-search-dollar"></i>
                         <p>Buscar venta (Fecha)</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{route('Venta.BuscarCodigo')}}" class="nav-link">
                     <i class="fas fa-search-dollar"></i>
                         <p>Buscar venta (Código)</p>
                     </a>
@@ -507,5 +508,6 @@
 <script src="/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/adminlte/dist/js/demo.js"></script>
+
 </body>
 </html>
